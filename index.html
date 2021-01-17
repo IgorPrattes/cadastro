@@ -9,7 +9,7 @@
 <body>
     <header>
         <a href="index.html">
-        <img src="https://imagensemoldes.com.br/wp-content/uploads/2020/09/Figura-Nike-Logo-PNG.png">
+        <img src="https://imagensemoldes.com.br/wp-content/uploads/2020/09/Figura-Nike-Logo-PNG.png" id="Logo">
         </a>
     </header>
 
@@ -21,6 +21,8 @@
         </h1>
     </div>
 
+
+    <form action="" id="form">
     <div>
             <input type="text" id="nome" placeholder="Nome do Funcionário">
     </div>
@@ -32,6 +34,67 @@
     <div>
         <input type="text" id="rg" placeholder="RG do Funcionário" max="9">
     </div>
+
+    <div>
+        <input type="date" id="data">
+    </div>
+
+    <div>
+        <select name="" id="habilitacao">
+            <option value="">Selecione o tipo de Habitação</option>
+            <option value="Tipo A">Tipo A</option>
+            <option value="Tipo B">Tipo B</option>
+            <option value="Tipo C">Tipo C</option>
+        </select>
+    </div>
+
+    <div>
+        <select name="" id="es">
+            <option value="">Seleciona o Estado Civil</option>
+            <option value="Solteiro(a)">Solteiro(a)</option>
+            <option value="Casado(a)">Casado(a)</option>
+            <option value="Viúvo(a)">Viúvo(a)</option>
+        </select>
+    </div>
+
+    <div>
+        <input type="text" id="cep" placeholder="Digite o CEP">
+    </div>
+
+    <div>
+        <input type="text" id="rua" placeholder="Digite a Rua">
+    </div>
+
+    <div>
+        <input type="text" id="bairro" placeholder="Digite o Bairro">
+    </div>
+
+    <div>
+        <input type="text" id="estado" placeholder="Digite o Estado">
+    </div>
+
+    <div>
+        <input type="text" id="city" placeholder="Digite a Cidade">
+    </div>
+
+    <div>
+        <input type="text" id="numero" placeholder="Digite o Número">
+    </div>
+
+    <div>
+        <input type="text" id="complemento" placeholder="Digite o Complemento">
+    </div>
+
+    <div>
+       <button onclick="enviarcampos()" id="botao">
+           Enviar
+       </button>
+    </div>
+
+    </form>
+
+
+
   
     <script src="main.js"></script>
 </body>
