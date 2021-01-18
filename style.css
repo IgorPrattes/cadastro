@@ -9,11 +9,17 @@
     padding: 10px 10px;
 }
 
+body {
+    background-image: url('https://cdn.wallpapersafari.com/51/45/5xRXUp.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 p {
     margin-left: 36%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
-    margin-top: 5%;
+    margin-top: 1%;
 }
 
 #form {
@@ -121,9 +127,14 @@ p {
     width: 100px;
     height: 40px;
     margin-left: 13%;
-    border: ridge 1px #ff008c;
-    background-color: #d400ff;
+    border: none;
+    background-color: #ff4e4e;
     color: white;
     margin-bottom: 10%;
     margin-top: 3%;
+}
+
+#botao:hover {
+    background-color: #ff0000;
+    color: white;
 }
